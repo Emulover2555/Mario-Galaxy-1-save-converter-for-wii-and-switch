@@ -1,7 +1,5 @@
 Status and limitations
 
-Verified
-
 A Switch 1.0.0 save converted to Wii loads correctly in a Wii emulator.
 Converting a save to the other platform and back reproduces it byte for byte (for the data both formats store).
 Converted blank / early-game slots match real saves from the other platform byte for byte.
