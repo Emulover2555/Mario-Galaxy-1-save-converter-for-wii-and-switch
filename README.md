@@ -26,3 +26,14 @@ Credits
 Format knowledge comes from the excellent work of ThatNintendoNerd/galaxy_save_data (Rust crates documenting the Galaxy save formats) and from byte-level comparison of real saves. Inspired by timschneeb/galaxy-save-converter. Please check their licenses and credit them if you build on this.
 
 This project is not affiliated with Nintendo. Do not commit commercial game saves you did not create to a public repository.
+
+
+To use the script, have the gamedata.bin in the directory of python script, open cmd at the directory, and type the following (depending on which conversion you want to do).
+
+python smg1_convert.py switch2wii GameData.bin GameData_wii.bin
+
+Or
+
+python smg1_convert.py wii2switch GameData.bin GameData_switch.bin
+
+You'll need to have python installed and the path variables set for it to work.
